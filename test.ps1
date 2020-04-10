@@ -2,7 +2,7 @@
 
 $libs = @('lib1', 'lib2')
 $target = 'aarch64-apple-ios'
-#$target = 'x86_64-apple-darwin'
+$target = 'x86_64-apple-darwin'
 
 foreach ($lib in $libs) {
 	Push-Location
